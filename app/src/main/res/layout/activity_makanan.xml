@@ -17,7 +17,7 @@
         android:textSize="24sp"
         android:gravity="center"
         android:textStyle="bold"
-        android:text="Tentukan Tergetmu Kawan!"/>
+        android:text="Sudah Makan Apa Hari Ini?"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -28,75 +28,18 @@
         android:textColorHint="@color/gray"
         android:background="@drawable/bg_spinner"
         android:hint="Nama"
-        android:id="@+id/edt_nama"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp">
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:hint="Berat Badan Saat Ini"
-            android:textColor="@color/black"
-            android:textColorHint="@color/gray"
-            android:padding="14dp"
-            android:background="@drawable/bg_spinner"
-            android:layout_weight="0.5"
-            android:id="@+id/edt_berat_sekarang"/>
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_spinner"
-            android:layout_marginStart="16dp"
-            android:padding="14dp"
-            android:layout_weight="1"
-            android:id="@+id/spinner_satuan_berat_1"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp">
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:hint="Berat Badan Target"
-            android:textColor="@color/black"
-            android:textColorHint="@color/gray"
-            android:padding="14dp"
-            android:background="@drawable/bg_spinner"
-            android:layout_weight="0.5"
-            android:id="@+id/edt_berat_tujuan"/>
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_spinner"
-            android:textColor="#ffffff"
-            android:layout_marginStart="16dp"
-            android:padding="14dp"
-            android:layout_weight="1"
-            android:id="@+id/spinner_satuan_berat_2"/>
-
-    </LinearLayout>
+        android:id="@+id/edt_nama_makanan"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
         android:padding="14dp"
         android:layout_marginBottom="16dp"
         android:textColor="@color/black"
         android:textColorHint="@color/gray"
         android:background="@drawable/bg_spinner"
-        android:hint="Batas Kalori Harian"
-        android:id="@+id/edt_kalori"/>
-
+        android:inputType="number"
+        android:hint="Jumlah Kalori"
+        android:id="@+id/edt_jumlah_kalori"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -108,7 +51,7 @@
             android:background="@drawable/bg_spinner"
             android:textColor="#ffffff"
             android:padding="14dp"
-            android:id="@+id/spinner_goals"/>
+            android:id="@+id/spinner_jenis_makan"/>
 
     </LinearLayout>
 
@@ -118,10 +61,10 @@
         android:background="@drawable/bg_spinner"
         android:padding="16dp"
         android:textSize="18sp"
-        android:text="Target Tanggal"
+        android:text="Waktu Makan"
         android:textColor="@color/gray"
         android:layout_marginBottom="16dp"
-        android:id="@+id/txt_calendar"/>
+        android:id="@+id/txt_time"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
@@ -131,8 +74,8 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:text="Mulai"
-        android:id="@+id/btn_mulai"/>
+        android:text="Simpan"
+        android:id="@+id/btn_simpan"/>
 
 
 </LinearLayout>
