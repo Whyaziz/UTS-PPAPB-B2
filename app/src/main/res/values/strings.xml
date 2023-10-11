@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LeanLife</string>
+    <string name="line">Line</string>
+    <string name="life">Life</string>
+    <string name="lean">Lean</string>
+    <string name="logo">logo</string>
+</resources>
