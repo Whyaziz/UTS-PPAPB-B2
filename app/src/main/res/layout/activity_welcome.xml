@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@color/light_blue"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginVertical="32dp"
+        android:src="@drawable/welcome"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:text="Welcome"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginVertical="16dp"
+        android:textColor="@color/white"
+        android:text="Selamat datang di LeanLife, teman sehatmu! Kami adalah aplikasi yang didedikasikan untuk membantu Anda mencapai tujuan kesehatan dan kebugaran Anda dengan cara yang mudah dan efektif."/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_yellow"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/white"
+        android:text="GET STARTED"
+        android:id="@+id/btn_get_started"/>
+
+</LinearLayout>

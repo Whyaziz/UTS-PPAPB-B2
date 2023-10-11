@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/blue"
+    tools:context=".GetStartedActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginVertical="32dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Tentukan Tergetmu Kawan!"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:background="@drawable/bg_spinner"
+        android:hint="Nama"
+        android:id="@+id/edt_nama"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Berat Badan Saat Ini"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:padding="14dp"
+            android:background="@drawable/bg_spinner"
+            android:layout_weight="0.5"
+            android:id="@+id/edt_berat_sekarang"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_spinner"
+            android:layout_marginStart="16dp"
+            android:padding="14dp"
+            android:layout_weight="1"
+            android:id="@+id/spinner_satuan_berat_1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Berat Badan Target"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:padding="14dp"
+            android:background="@drawable/bg_spinner"
+            android:layout_weight="0.5"
+            android:id="@+id/edt_berat_tujuan"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_spinner"
+            android:textColor="#ffffff"
+            android:layout_marginStart="16dp"
+            android:padding="14dp"
+            android:layout_weight="1"
+            android:id="@+id/spinner_satuan_berat_2"/>
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:background="@drawable/bg_spinner"
+        android:hint="Batas Kalori Harian"
+        android:id="@+id/edt_kalori"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_spinner"
+            android:textColor="#ffffff"
+            android:padding="14dp"
+            android:id="@+id/spinner_goals"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
