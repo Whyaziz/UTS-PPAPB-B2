@@ -90,5 +90,6 @@ class MakananActivity : AppCompatActivity(), TimePickerDialog.OnTimeSetListener 
     override fun onTimeSet(view: TimePicker?, hourOfDay: Int, minute: Int) {
         val selectedTime = "$hourOfDay:$minute"
         time = selectedTime
+        binding.txtTime.text = selectedTime
     }
 }

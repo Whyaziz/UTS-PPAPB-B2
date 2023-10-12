@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/blue"
+    tools:context=".GetStartedActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginVertical="32dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Sudah Olahraga Apa Hari Ini?"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:background="@drawable/bg_spinner"
+        android:hint="Nama Olahraga"
+        android:id="@+id/edt_nama_makanan"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:background="@drawable/bg_spinner"
+        android:inputType="number"
+        android:hint="Kalori Terbakar"
+        android:id="@+id/edt_kalori_terbakar"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:background="@drawable/bg_spinner"
+        android:inputType="number"
+        android:hint="Durasi Workout"
+        android:id="@+id/edt_durasi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_spinner"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:text="Waktu Olahraga"
+        android:textColor="@color/gray"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/txt_time"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_blue"
+        android:padding="12dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Simpan"
+        android:id="@+id/btn_simpan"/>
+
+
+</LinearLayout>
